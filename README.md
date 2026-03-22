@@ -102,4 +102,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 Business Source License 1.1 (BSL-1.1). You may use OpenKlerk for any purpose EXCEPT offering it as a commercial service to third parties. After 3 years, converts to Apache 2.0.
 
-For commercial licensing: balaji.renukumar@sensfix.com
+For commercial licensing: balaji.renukumar@gmail.com

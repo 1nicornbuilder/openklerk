@@ -9,7 +9,7 @@ description = "Open-source engine for autonomous government compliance filing"
 readme = "README.md"
 license = {text = "BSL-1.1"}
 requires-python = ">=3.11"
-authors = [{name = "Balaji Renukumar", email = "balaji.renukumar@sensfix.com"}]
+authors = [{name = "Balaji Renukumar", email = "balaji.renukumar@gmail.com"}]
 
 dependencies = [
     "playwright>=1.41.0",

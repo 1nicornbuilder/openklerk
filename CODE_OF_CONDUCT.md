@@ -12,7 +12,7 @@ Unacceptable behavior: harassment, trolling, publishing private information with
 
 ## Enforcement
 
-Report issues to: balaji.renukumar@sensfix.com
+Report issues to: balaji.renukumar@gmail.com
 
 ## Attribution
 

@@ -1,0 +1,12 @@
+{
+  "filing_code": "ca_soi",
+  "headless": false,
+  "screenshots_dir": "./screenshots",
+  "output_file": "./results/filing_result.json",
+  "llm_backend": "google",
+  "llm_config": {
+    "project_id": "your-gcp-project-id",
+    "location": "us-central1",
+    "model": "gemini-2.5-flash-preview-05-20"
+  }
+}

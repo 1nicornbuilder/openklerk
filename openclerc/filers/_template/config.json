@@ -1,0 +1,11 @@
+{
+  "state": "{state}",
+  "filing_type": "{filing_type}",
+  "portal_url": "",
+  "portal_name": "",
+  "login_method": "username_password",
+  "captcha": false,
+  "draft_save": false,
+  "steps_count": 1,
+  "notes": "TODO: Fill in portal details after screenshot analysis"
+}

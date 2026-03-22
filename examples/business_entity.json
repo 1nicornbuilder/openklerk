@@ -1,0 +1,77 @@
+{
+  "entity_name": "ACME CORPORATION",
+  "entity_number": "C1234567",
+  "entity_type": "corporation",
+  "state_of_formation": "CA",
+  "formation_date": "2020-01-15",
+  "ein": "12-3456789",
+
+  "principal_address": {
+    "street1": "123 Main Street",
+    "street2": "Suite 100",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94105",
+    "country": "US"
+  },
+  "mailing_address": {
+    "street1": "PO Box 1234",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94105",
+    "country": "US"
+  },
+
+  "officers": [
+    {
+      "full_name": "Jane Doe",
+      "title": "CEO",
+      "email": "jane@acmecorp.com",
+      "phone": "415-555-0100",
+      "is_signer": true,
+      "address": {
+        "street1": "123 Main Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105"
+      }
+    },
+    {
+      "full_name": "John Smith",
+      "title": "CFO",
+      "email": "john@acmecorp.com",
+      "phone": "415-555-0101"
+    },
+    {
+      "full_name": "Alice Johnson",
+      "title": "Secretary",
+      "email": "alice@acmecorp.com"
+    }
+  ],
+
+  "registered_agent": {
+    "name": "CT Corporation System",
+    "address": {
+      "street1": "818 West Seventh Street",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90017"
+    }
+  },
+
+  "business_data": {
+    "sic_code": "7372",
+    "naics_code": "511210",
+    "business_description": "Computer software development",
+    "authorized_shares": "10000000",
+    "issued_shares": "1000000",
+    "par_value": "0.001",
+    "gross_assets": "5000000"
+  },
+
+  "portal_username": "user@example.com",
+  "portal_password": "portal_password_here",
+  "portal_extra": {},
+
+  "payment_tier": "customer_pays"
+}

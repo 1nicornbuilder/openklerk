@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "openclerc"
+name = "openklerk"
 version = "0.1.0"
 description = "Open-source engine for autonomous government compliance filing"
 readme = "README.md"
@@ -29,15 +29,15 @@ dev = [
 ]
 
 [project.scripts]
-openclerc = "openclerc.cli:cli"
+openklerk = "openklerk.cli:cli"
 
 [project.urls]
-Homepage = "https://github.com/NeverMissAFiling/openclerc"
-Documentation = "https://github.com/NeverMissAFiling/openclerc/tree/main/docs"
-Issues = "https://github.com/NeverMissAFiling/openclerc/issues"
+Homepage = "https://github.com/NeverMissAFiling/openklerk"
+Documentation = "https://github.com/NeverMissAFiling/openklerk/tree/main/docs"
+Issues = "https://github.com/NeverMissAFiling/openklerk/issues"
 
 [tool.setuptools.packages.find]
-include = ["openclerc*"]
+include = ["openklerk*"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

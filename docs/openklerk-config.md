@@ -9,17 +9,17 @@ export GCP_LOCATION=us-central1
 ```
 
 ### Anthropic, OpenAI, Ollama
-Stubs -- contributions welcome. See `openclerc/intelligence/backends/`.
+Stubs -- contributions welcome. See `openklerk/intelligence/backends/`.
 
 ### Mock (Testing)
 ```bash
-openclerc run --config entity.json --filer ca_soi --mock-llm
+openklerk run --config entity.json --filer ca_soi --mock-llm
 ```
 
 ## Implementing a New Backend
 
 ```python
-from openclerc.intelligence.backends.base import LLMBackend
+from openklerk.intelligence.backends.base import LLMBackend
 
 class MyBackend(LLMBackend):
     async def call(self, system_prompt, user_prompt, screenshot=None) -> str:
@@ -29,4 +29,4 @@ class MyBackend(LLMBackend):
         return "my_backend"
 ```
 
-Register in `openclerc/intelligence/backends/__init__.py`.
+Register in `openklerk/intelligence/backends/__init__.py`.

@@ -1,7 +1,7 @@
 """Tests for California SOI filer."""
 import pytest
-from openclerc.filers.california_soi import CaliforniaSOIFiler
-from openclerc.core.base_filer import FilingContext
+from openklerk.filers.california_soi import CaliforniaSOIFiler
+from openklerk.core.base_filer import FilingContext
 
 
 class TestCaliforniaSOIFiler:

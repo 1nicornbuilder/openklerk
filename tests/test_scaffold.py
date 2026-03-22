@@ -4,7 +4,7 @@ import tempfile
 import pytest
 from unittest.mock import patch
 
-from openclerc.contrib.scaffold import (
+from openklerk.contrib.scaffold import (
     to_class_name,
     state_to_code,
     create_filer_scaffold,
@@ -35,17 +35,17 @@ class TestCreateScaffold:
             orig_dir = os.getcwd()
             try:
                 os.chdir(tmpdir)
-                os.makedirs("openclerc/filers", exist_ok=True)
+                os.makedirs("openklerk/filers", exist_ok=True)
                 os.makedirs("tests", exist_ok=True)
 
                 create_filer_scaffold("Oregon", "Annual Report")
 
-                assert os.path.exists("openclerc/filers/oregon_annual_report.py")
+                assert os.path.exists("openklerk/filers/oregon_annual_report.py")
                 assert os.path.exists("tests/test_oregon_annual_report.py")
-                assert os.path.exists("openclerc/filers/oregon_annual_report_config.json")
+                assert os.path.exists("openklerk/filers/oregon_annual_report_config.json")
 
                 # Check filer content
-                with open("openclerc/filers/oregon_annual_report.py") as f:
+                with open("openklerk/filers/oregon_annual_report.py") as f:
                     content = f.read()
                 assert "OregonAnnualReportFiler" in content
                 assert "BaseStateFiler" in content

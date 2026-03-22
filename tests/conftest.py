@@ -1,4 +1,4 @@
-"""Pytest configuration for OpenClerc tests."""
+"""Pytest configuration for OpenKlerk tests."""
 import pytest
 
 
@@ -37,5 +37,5 @@ def sample_entity_data():
 @pytest.fixture
 def sample_context(sample_entity_data):
     """Sample FilingContext for testing."""
-    from openclerc.core.base_filer import FilingContext
+    from openklerk.core.base_filer import FilingContext
     return FilingContext(**sample_entity_data)

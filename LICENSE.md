@@ -1,7 +1,7 @@
 Business Source License 1.1
 
 Licensor: Sensfix, Inc.
-Licensed Work: OpenClerc Engine
+Licensed Work: OpenKlerk Engine
 Additional Use Grant: You may use the Licensed Work for any purpose
   EXCEPT offering it as a commercial service to third parties.
 Change Date: [3 years from first release date]

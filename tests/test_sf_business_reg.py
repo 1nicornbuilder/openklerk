@@ -1,7 +1,7 @@
 """Tests for San Francisco Business Registration filer."""
 import pytest
-from openclerc.filers.sf_business_reg import SFBusinessRegistrationFiler
-from openclerc.core.base_filer import FilingContext
+from openklerk.filers.sf_business_reg import SFBusinessRegistrationFiler
+from openklerk.core.base_filer import FilingContext
 
 
 class TestSFBusinessRegistrationFiler:

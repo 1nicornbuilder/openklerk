@@ -2,10 +2,10 @@
 
 ## Layers
 
-- **Core** (`openclerc/core/`): BrowserEngine, BaseStateFiler, StateMachine, Orchestrator
-- **Intelligence** (`openclerc/intelligence/`): OpenKlerk LLM service with pluggable backends
-- **Filers** (`openclerc/filers/`): State-specific filing implementations
-- **Contrib** (`openclerc/contrib/`): Scaffold generator, quality gate, screenshot analyzer
+- **Core** (`openklerk/core/`): BrowserEngine, BaseStateFiler, StateMachine, Orchestrator
+- **Intelligence** (`openklerk/intelligence/`): OpenKlerk LLM service with pluggable backends
+- **Filers** (`openklerk/filers/`): State-specific filing implementations
+- **Contrib** (`openklerk/contrib/`): Scaffold generator, quality gate, screenshot analyzer
 
 ## Data Flow
 

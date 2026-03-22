@@ -9,6 +9,6 @@
 ## Checklist
 
 - [ ] Tests pass (`pytest tests/ -v`)
-- [ ] Quality gate passes (`openclerc check --filer <name>`)
+- [ ] Quality gate passes (`openklerk check --filer <name>`)
 - [ ] No hardcoded credentials or secrets
 - [ ] Documentation updated (if applicable)

@@ -1,7 +1,7 @@
 """Tests for Delaware Franchise Tax filer."""
 import pytest
-from openclerc.filers.delaware_franchise_tax import DelawareFranchiseTaxFiler
-from openclerc.core.base_filer import FilingContext
+from openklerk.filers.delaware_franchise_tax import DelawareFranchiseTaxFiler
+from openklerk.core.base_filer import FilingContext
 
 
 class TestDelawareFranchiseTaxFiler:

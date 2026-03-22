@@ -26,5 +26,5 @@ assignees: ''
 
 - OS:
 - Python version:
-- OpenClerc version:
+- OpenKlerk version:
 - Browser (if applicable):

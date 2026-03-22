@@ -1,4 +1,4 @@
-# Contributing to OpenClerc
+# Contributing to OpenKlerk
 
 Every new state filer makes the platform more useful for businesses across the country.
 
@@ -11,8 +11,8 @@ Every new state filer makes the platform more useful for businesses across the c
 ## Setup
 
 ```bash
-git clone https://github.com/NeverMissAFiling/openclerc.git
-cd openclerc
+git clone https://github.com/NeverMissAFiling/openklerk.git
+cd openklerk
 pip install -e ".[dev]"
 playwright install chromium
 pytest tests/ -v
@@ -28,18 +28,18 @@ Save to `docs/screenshots/your_state/` as numbered PNGs.
 ### Step 2: Generate the Scaffold
 
 ```bash
-openclerc new-filer --state "Oregon" --filing-type "Annual Report"
+openklerk new-filer --state "Oregon" --filing-type "Annual Report"
 ```
 
 ### Step 3: (Optional) Run the Screenshot Analyzer
 
 ```bash
-openclerc analyze --screenshots docs/screenshots/oregon/ --state Oregon --mock-llm
+openklerk analyze --screenshots docs/screenshots/oregon/ --state Oregon --mock-llm
 ```
 
 ### Step 4: Implement the Filer
 
-Edit `openclerc/filers/oregon_annual_report.py`. Set metadata, define steps, implement browser automation.
+Edit `openklerk/filers/oregon_annual_report.py`. Set metadata, define steps, implement browser automation.
 
 Use existing filers as reference:
 - `california_soi.py` -- Complex React SPA (16 steps)
@@ -50,7 +50,7 @@ Use existing filers as reference:
 
 ```bash
 pytest tests/test_oregon_annual_report.py -v
-openclerc check --filer oregon_annual_report
+openklerk check --filer oregon_annual_report
 ```
 
 ### Step 6: Submit a PR

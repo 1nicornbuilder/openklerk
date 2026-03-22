@@ -1,4 +1,4 @@
-# OpenClerc — Engine dependencies only (no SaaS deps)
+# OpenKlerk — Engine dependencies only (no SaaS deps)
 playwright>=1.41.0
 click>=8.1.0
 rich>=13.7.0
